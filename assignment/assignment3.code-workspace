@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "assignment3"
+		},
+		{
+			"path": "F:/FS_SP-2K24"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "FS_SP-2K24"
+	}
+}
