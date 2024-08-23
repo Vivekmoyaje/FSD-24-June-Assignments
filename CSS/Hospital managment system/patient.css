@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #8686fb;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+main{
+    padding: 40px;
+    text-align: center;
+}
+
+.patient-form{
+    background-color: rgb(252, 191, 252);
+    padding: 20px;
+    border: 1px solid #add;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    width: 400px;
+}
+
+.patient-form h2{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#name,#age,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#male,#female,#other{
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin: 0 5px 25px 20px;
+}
+
+button{
+    padding: 7px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: indigo;
+}
+
+#submit{
+    background-color: rgb(113, 238, 113);
+
+}
+
+#reset{
+    background-color: rgb(255, 106, 106);
+}
+
+#view{
+    background-color: white;
+}
+
+footer{
+    background-color: #464545;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
