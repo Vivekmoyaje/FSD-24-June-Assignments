@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+        }
+        button{
+            border-radius: 3px;
+        }
+        table{
+            width: 40%;
+        }
+        table{
+            margin: auto;
+        }
+        hr{
+            border: 1.5px solid rgb(16, 208, 198);
+            width: 40%;
+        }
+        span{
+            color: rgb(16, 208, 198);
+        }
+        select{
+            background-color: rgb(207, 197, 197);
+            width: 100px;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Pizza shop 2.0</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" id="name" style="background-color: rgb(254, 185, 185);"></td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <input type="radio" name="pizza" value="supreme" id="">Supreme <br>
+                <input type="radio" name="pizza" value="vegetarian" id="">vegetarian <br>
+                <input type="radio" name="pizza" value="Hawalian" id="">Hawalian <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Pizza sauce</td>
+            <td>
+                <select name="pizzasauce" id="">
+                <option value="tomato">Tomato</option>
+                <option value="chilli">chilli</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Optional Extras</td>
+            <td>
+                <input type="checkbox" name="" id="">Extra cheese
+                <input type="checkbox" name="" id="">Gluten free base
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Delivery Instructions: <br>
+                <textarea name="delivery intr" id="" rows="3" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit">Send my order</button>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <center><caption><span>Figure 8.1 </span>Example of HTML page</caption></center>
+
+</body>
+</html>
