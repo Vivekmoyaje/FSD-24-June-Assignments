@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "F:/FS_SP-2K24"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FS_SP-2K24"
+	}
+}

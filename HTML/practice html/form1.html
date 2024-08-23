@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            margin: auto;
+            width: 280px;
+            height: 280px;
+            border-style: groove;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        button{
+            background-color: rgb(51, 51, 229);
+            color: white;
+            border: none;
+            width: 265px;
+            padding: 10px;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .ab{
+            width: 250px;
+            padding: 8px;
+            border-radius: 5px;
+            border-width: 1px;
+            border-style: outset;
+        }
+        label{
+            margin-bottom: 20px;
+        }
+        a{
+            color: red;
+            margin-left: 25px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <form action="#">
+            <label for="email">Email</label>
+            <br>
+            <input class="ab" type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            <br><br>
+            <label for="ps">Password</label>
+            <br>
+            <input class="ab" type="password" name="password" id="ps" placeholder="Enter your password" required>
+            <br><br>
+            <input type="checkbox" name="rm" id="rm" required>Remember Me
+            <a href="#">Forgot Password?</a>
+            <br><br><br>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

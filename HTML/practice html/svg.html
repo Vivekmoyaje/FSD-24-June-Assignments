@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .signal{
+            margin: auto;
+            background-color: gray;
+            width: 150px;
+            border: 2px solid black;
+        }
+       .a{
+        height:100px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 50%;
+        margin: auto;
+       }
+       .b{
+        background-color:red;
+       }
+       .c{
+        background-color: yellow;
+       }
+       .d{
+        background-color: green;
+       }
+       .rod{
+         width: 20px;
+         height: 400px;
+         background-color: black;
+         margin: auto;
+       }
+    </style>
+</head>
+<body>
+    <div class="signal">
+        <div class="a b" onclick="red()"></div>
+        <div class="a c" onclick="yellow()"></div>
+        <div class="a d" onclick="green()"></div>
+    </div>
+    <div class="rod">
+
+    </div>
+
+    <script>
+
+        function red()
+        {
+            window.alert("this is the red light for stop ");
+        }
+        function yellow()
+        {
+            window.alert("this is the yellow light for wait")
+        }
+        function green()
+        {
+            window.alert("this is the green light for go ")
+        }
+
+    </script>
+</body>
+</html>
