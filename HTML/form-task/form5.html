@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          background-color: rgb(143, 155, 165);  
+        }
+
+        label{
+            display: inline-block;
+            width: 150px;
+        }
+        div{
+            padding-left: 450px;
+        }
+        h3{
+            text-align: center;
+        }
+        button{
+           margin-left: 30px;
+        }
+        span{
+            padding-left: 130px;
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <h3><u>Registration form</u></h3>
+    <div>
+    <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname">
+        <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname">
+        <br><br>
+
+        <label for="nname">Nick Name</label>
+        <input type="text" name="nname" id="nname">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+
+        <label for="ps">Password</label>
+        <input type="password" name="ps" id="ps">
+        <br><br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="text" name="dob" id="dob">
+        <br><br>
+
+        <label for="Gender">Gender</label>
+        <input type="radio" name="gender" value="Male" >Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="other">Other
+        <br><br>
+
+        <label for="mob">Mobile</label>
+        <input type="number" name="mob" id="mob">
+        <br><br>
+
+        <label for="Addr">Address</label>
+        <textarea name="addr" id="addr" rows="5" cols="21"></textarea>
+        <br><br>
+       <span>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+       </span>
+    </form>
+   </div>
+</body>
+</html>
