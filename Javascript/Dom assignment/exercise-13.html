@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Font Size</title>
+</head>
+<body>
+    <p class="text">hello world</p>
+    <p class="text">welcome to india</p>
+    <p class="text">hello world</p>
+
+    <script>
+        var text = document.getElementsByClassName('text');
+
+        for(let i=0; i<text.length; i++){
+            text[i].style.fontSize='20px';
+        }
+    </script>
+</body>
+</html>

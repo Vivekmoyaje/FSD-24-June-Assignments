@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select and Change Multiple Elements</title>
+</head>
+<body>
+    <div class="highlight">hello world</div>
+    <div class="highlight">welcome to india</div>
+    <div class="highlight">welocme to new world</div>
+
+    <script>
+        var high = document.getElementsByClassName('highlight');
+
+            for(let i=0;i<high.length;i++){
+               high[i].style.backgroundColor="yellow"
+            }
+
+    </script>
+</body>
+</html>
