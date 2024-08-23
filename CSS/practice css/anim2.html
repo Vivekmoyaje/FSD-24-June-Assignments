@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: auto;
+        }
+        .container{
+            height: 500px;
+            width: 700px;
+            border: 2px solid black;
+        }
+        .box{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation: example 10s linear infinite;
+        }
+        @keyframes example {
+            0%{
+                left: 0px;
+                top: 0px;
+                
+            }
+            50%{
+                left: 600px;
+                top: 0px;
+                transform: rotate(90deg);
+                background-color: blue;
+            }
+            100%{
+                top: 400px;
+                left:0px;
+                transform: skew(45deg);
+                background-color: green;
+
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
