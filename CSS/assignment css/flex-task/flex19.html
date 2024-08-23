@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        header{
+            background-color: rgb(255, 0, 68);
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+        article{
+            padding: 10px;
+            background-color: rgb(7, 252, 228);
+            width: 300px;
+        }
+        .box3{
+            flex-grow: 1;
+        }
+        
+        .parent{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .parent>.box{
+            background-color: white;
+            padding: 5px 20px;
+            border: 1px solid black;
+        }
+        #last-child{
+            width: 90%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Complex flexbox example</h1>
+        </header>
+        <article class="box1">
+            <h2>First artical</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nesciunt consectetur animi amet ipsa possimus. Voluptatibus veniam porro a eos quod sint, natus esse vitae, est rerum eum aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem velit porro nisi pariatur aliquam. Optio repudiandae illo veniam perspiciatis, natus illum modi aliquid sequi tempore id iste? Sint, soluta.</p>
+        </article>
+        <article class="box2">
+            <h2>Second artical</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nesciunt consectetur animi amet ipsa possimus. Voluptatibus veniam porro a eos quod sint, natus esse vitae, est rerum eum aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem velit porro nisi pariatur aliquam. Optio repudiandae illo veniam perspiciatis, natus illum modi aliquid sequi tempore id iste? Sint, soluta.</p>
+        </article>
+        <article class="box3">
+            <div class="parent">
+                <div class="box">Smile</div>
+                <div class="box">Laugh</div>
+                <div class="box">Wink</div>
+                <div class="box">Shrug</div>
+                <div class="box" id="last-child">Blush</div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nesciunt consectetur animi amet ipsa possimus. Voluptatibus veniam porro a eos quod sint, natus esse vitae, est rerum eum aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem velit porro nisi pariatur aliquam. Optio repudiandae illo veniam perspiciatis, natus illum modi aliquid sequi tempore id iste? Sint, soluta.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, nesciunt consectetur animi amet ipsa possimus. Voluptatibus veniam porro a eos quod sint, natus esse vitae, est rerum eum aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem velit porro nisi pariatur aliquam. Optio repudiandae illo veniam perspiciatis, natus illum modi aliquid sequi tempore id iste? Sint, soluta.</p>
+        </article>
+    </div>
+</body>
+</html>
