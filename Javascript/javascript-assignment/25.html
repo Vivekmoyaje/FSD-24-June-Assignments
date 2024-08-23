@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Employee {
+    constructor(name, salary) {
+    this.name = name;
+    this.salary = salary;
+    document.write(`Name of the Employee: ${name}<br>`);
+    document.write(`Monthly Salary: $${salary} <br><br>`); 
+  }
+
+ calculateAnnualSalary() {
+    return this.salary * 12;
+  }
+}
+
+class Manager extends Employee {
+  constructor(name, salary, department) {
+    super(name, salary);
+    this.department = department;
+  }
+
+  calculateAnnualSalary() {
+    const baseSalary = super.calculateAnnualSalary();
+    const bonus = 0.1; 
+    document.write(`Bonus (10% of the base salary): ${bonus}<br>`);
+    // Bonus calculation for managers
+    return (bonus * baseSalary) + baseSalary;
+  }
+}
+
+// Create an instance of the Manager class
+const manager1 = new Manager('John Doe', 5000, 'Marketing');
+const annualSalary1 = manager1.calculateAnnualSalary();
+
+document.write(`Manager: ${manager1.name}<br>`);
+document.write(`Department: ${manager1.department}<br>`);
+document.write(`Annual Salary: $${annualSalary1}`);
+
+    </script>
+</body>
+</html>

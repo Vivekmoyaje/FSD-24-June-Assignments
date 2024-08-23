@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the current bill for the given number of units (domestic-10rs per unit, indurstial-15rs per unit) </title>
+</head>
+<body>
+
+    <h1>Find the current bill for the given number of units (domestic-10rs per unit, indurstial-15rs per unit) </h1>
+
+    <script>
+
+        function electric_bill(unit){
+
+            if(unit<=100){
+                return unit*10;
+            }
+            else if(unit<=200){
+                return (100*10)+(unit-100)*15;
+            }
+            else if(unit<=300){
+                return (100*10)+(100*15)+(unit-200)*20;
+            }
+            else if(unit>300){
+                return (100*10)+(100*15)+(100*20)+(unit-300)*25;
+            }
+        }
+
+        document.write(electric_bill(150));
+
+    </script>
+    
+</body>
+</html>

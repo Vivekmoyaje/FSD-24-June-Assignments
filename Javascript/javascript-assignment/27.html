@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the number of days in the given number of months?</title>
+</head>
+<body>
+    <h1>Find the number of days in the given number of months?</h1>
+
+    <script>
+        function daysInMonth(month, year) {
+	return new Date(year, month, 0).getDate();
+}
+
+function numberOfDay() {
+	let date = new Date();
+	let month = 2;
+	let year = 2020;
+	document.write("Number of days in " + month
+		+ "and month of the year " + year
+		+ " is " + daysInMonth(month, year));
+}
+numberOfDay();
+
+    </script>
+</body>
+</html>

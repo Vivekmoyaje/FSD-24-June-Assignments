@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read three angles from the user, decide it is triangle or not?</title>
+</head>
+<body>
+    <h1>Read three angles from the user, decide it is triangle or not?</h1>
+
+    <script>
+        const angle1 = parseInt(prompt("Enter angle one for triangle in degree"));
+        const angle2 = parseInt(prompt("Enter angle two for triangle in degree"));
+        const angle3 = parseInt(prompt("Enter angle three for triangle in degree"));
+
+        const triangle = angle1 + angle2 + angle3;
+
+        if (triangle==180){
+            document.write("Acording to given input it is a \"triangle\"");
+        }
+        else{
+            document.write("Acording to given input it is not a \"triangle\"");
+        }
+    </script>
+</body>
+</html>

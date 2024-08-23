@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print the numbers which are not divisible by 2,4, and 6 for given range (start and end value must be taken from the user)</title>
+</head>
+<body>
+    <h1>Print the numbers which are not divisible by 2,4, and 6 for given range (start and end value must be taken from the user)</h1>
+
+    <script>
+        let startValue = parseInt(prompt("enter the start value"));
+        let endValue = parseInt(prompt("enter the end value"));
+
+        for (i = startValue; i<=endValue; i++ ){
+            if(i%2 != 0  &&  i%4 != 0  &&  i%6 != 0)
+            document.write(`${i} <br>`);
+        }
+    </script>
+</body>
+</html>

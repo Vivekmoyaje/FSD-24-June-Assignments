@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print the number which are divisible both 3 and 6 for given range (start and end value must be taken from the user) </title>
+</head>
+<body>
+    <h1>Print the number which are divisible both 3 and 6 for given range (start and end value must be taken from the user) </h1>
+
+    <script>
+
+        let f_num=prompt("enter first number");
+        let l_num=prompt("enter last number");
+
+        function divide(){
+
+            for(i=f_num; i<=l_num; i++){
+
+                if(i%3==0 && i%6==0){
+
+                    document.write(i +"<br>")
+                }
+            }
+        }
+
+        divide();
+
+    </script>
+</body>
+</html>

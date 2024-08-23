@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert the given seconds into hours. </title>
+</head>
+<body>
+    <h1>6. Convert the given seconds into hours. </h1>
+
+    <script>
+
+        var seconds=parseInt(prompt("enter seconds"));
+        var hours= Math.floor(seconds/3600);
+        var minutes= Math.floor(seconds/60);
+        minutes=minutes%60;
+        var seconds=seconds%60;
+
+        document.write(hours +" Hours : " + minutes  +" minutes : " + seconds +"seconds");
+        
+    </script>
+</body>
+</html>

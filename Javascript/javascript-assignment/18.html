@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check given character is space or not?</title>
+</head>
+<body>
+    <h1>Check given character is space or not?</h1>
+
+    <script>
+        function spaceOrNot(value){
+        return value.indexOf(' ') >= 0;
+    }
+       var whiteSpace=spaceOrNot("MyNameis John");
+
+       if(whiteSpace==true){
+       document.write("The string has whitespace");
+    }
+       else {
+       document.write("The string does not have whitespace");
+    }
+
+    </script>
+</body>
+</html>

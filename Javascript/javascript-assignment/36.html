@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print the odd number from the given range (start and end value must take from the user)</title>
+</head>
+<body>
+    <h1>Print the odd number from the given range (start and end value must take from the user)</h1>
+
+    <script>
+
+        let firstnum=prompt("enter first number");
+        let lastnum=prompt("enter last number");
+
+        function odd(){
+
+            for(i=firstnum; i<=lastnum; i++){
+
+                if(i%2==1){
+
+                    document.write(i +"<br>")
+                }
+            }
+        }
+        odd();
+
+    </script>
+</body>
+</html>

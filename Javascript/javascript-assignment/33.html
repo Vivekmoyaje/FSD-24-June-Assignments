@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read angles from the user, decide it is pentagon or not?</title>
+</head>
+<body>
+    <h1>Read angles from the user, decide it is pentagon or not?</h1>
+    <script>
+        const angle1 = parseInt(prompt("Enter angle one for pentagon in degree"));
+        const angle2 = parseInt(prompt("Enter angle two for pentagon in degree"));
+        const angle3 = parseInt(prompt("Enter angle three for pentagon in degree"));
+        const angle4 = parseInt(prompt("Enter angle three for pentagon in degree"));
+        const angle5 = parseInt(prompt("Enter angle three for pentagon in degree"));
+
+        const triangle = angle1 + angle2 + angle3 + angle4 + angle5;
+
+        if (triangle==540){
+            document.write("Acording to given input it is a \"pentagon\"");
+        }
+        else{
+            document.write("Acording to given input it is not a \"pentagon\"");
+        }
+    </script>
+</body>
+</html>
