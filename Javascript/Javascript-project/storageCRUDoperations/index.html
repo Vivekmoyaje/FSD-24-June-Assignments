@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employees CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>employees CRUD</h1>
+
+    <form action="" id="employeeForm">
+        <input type="text" id="employeeName" placeholder="employee Name" class="employee" required>
+        <input type="text" id="employeeTitle" placeholder="employee Title" class="employee" required>
+        <button type="submit" class="btn">Add Employee</button>
+    </form>
+
+
+    <!-- Table to display employees -->
+    <table>
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Employee Title</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="employeeList">
+            <!-- Employees will be display here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
